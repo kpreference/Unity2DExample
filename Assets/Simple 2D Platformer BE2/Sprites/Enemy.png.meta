@@ -147,169 +147,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle 0
+      name: Enemy_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 17
-        width: 16
-        height: 16
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f241131c66d4770800000000000000
-      internalID: 8596640243658272642
+      spriteID: dd5093ee21d0e62428242243c20bdb00
+      internalID: 2039177573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1
+      name: Enemy_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 18
         y: 17
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 393dba6ecbf41f590800000000000000
-      internalID: -7642239419928554605
+      spriteID: 84bfb3982c7b85c49a323b47e7b0fe93
+      internalID: -860031055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 2
+      name: Enemy_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 17
-        width: 16
-        height: 16
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc92438e0cf23ac0800000000000000
-      internalID: -3876759189950653258
+      spriteID: 492da029d710002438950fa6f3c450a3
+      internalID: 608936529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 3
+      name: Enemy_3
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 17
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30613ac5b04fc90b0800000000000000
-      internalID: -5720429097031363069
+      spriteID: f7b74a6280a57a045a9dc74a01902c07
+      internalID: -519557950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 0
+      name: Enemy_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ea25432b2743290800000000000000
-      internalID: -7911572535675539837
+      spriteID: d62132fe2058e51499900cec38a05f7c
+      internalID: 1896864797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1
+      name: Enemy_5
       rect:
         serializedVersion: 2
-        x: 17
+        x: 18
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c915baf1b6cea40800000000000000
-      internalID: 5398807837072792716
+      spriteID: e7973c8d51676984d9bffa4b76cd7e83
+      internalID: 106265637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 2
+      name: Enemy_6
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb72d763f6534cbc0800000000000000
-      internalID: -3763824636803078212
+      spriteID: 1acbd2733faf3bc488dbdcefdcc74052
+      internalID: 954376507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 3
+      name: Enemy_7
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2880f4c523ab1d270800000000000000
-      internalID: 8273598715916126338
+      spriteID: 9f9f01362def8ec4aac95de5e32bfced
+      internalID: 1521910675
       vertices: []
       indices: 
       edges: []
@@ -325,14 +325,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle 0: 8596640243658272642
-      Idle 1: -7642239419928554605
-      Idle 2: -3876759189950653258
-      Idle 3: -5720429097031363069
-      Run 0: -7911572535675539837
-      Run 1: 5398807837072792716
-      Run 2: -3763824636803078212
-      Run 3: 8273598715916126338
+      Enemy_0: 2039177573
+      Enemy_1: -860031055
+      Enemy_2: 608936529
+      Enemy_3: -519557950
+      Enemy_4: 1896864797
+      Enemy_5: 106265637
+      Enemy_6: 954376507
+      Enemy_7: 1521910675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
