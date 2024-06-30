@@ -8,17 +8,18 @@ public class EnemyMove : MonoBehaviour
     public int nextMove;
     Animator anim;
     SpriteRenderer spriteRenderer;
+    BoxCollider2D bcollider;
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim= GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
+        bcollider = GetComponent<BoxCollider2D>();
         Invoke("Think", 5);
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void FixedUpdate()              
     {
         //move
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
@@ -56,4 +57,23 @@ public class EnemyMove : MonoBehaviour
         CancelInvoke();
         Invoke("Think", 2);
     }
+    public void OnDamaged()
+    {
+        //sprite Alpha
+        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+
+        //sprite flip y
+        spriteRenderer.flipY = true;
+        //collider disable
+        bcollider.enabled = false;
+        //die effect jump
+        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        //destroy
+        Invoke("DeActive", 5);
+    }
+    void DeActive()
+    {
+        gameObject.SetActive(false);
+    }
+    
 }
